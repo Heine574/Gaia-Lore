@@ -1,0 +1,64 @@
+G'athruloisteen'nir G'athruweyrénir
+=
+the powerful man with the powerful crystal
+
+[] means that it is implied
+
+let's split it up into
+(g'a)(thru)(loisteen')(nir) (g'a)(thru)(weyré)(nir)
+
+(g'a) = the
+(thru) = power
+(loisteen) = crystal
+(nir) = has
+(weyre) = man
+
+so:
+(g'a)(thru)         (loisteen')(nir) =
+(the)(power)[that the](crystal)(has) =
+     (power)[that the](crystal)(has) =
+the crystal that has power =
+the powerful crystal
+and:
+(g'a)(thru)         (weyré)(nir) = 
+(the)(power)[that the](man)(has) =
+     (power)[that the](man)(has) =
+the man that mas power =
+the powerful man
+
+depracticed:
+G'athruloisteen'nir kaja G'athruweyrénir
+(g'a)(thru)          (loisteen')(nir) (kaja) (g'a)(thru)          (weyré)(nir) =
+(the)(power)[that]     (crystal)(has) (that) (the)(power)[that]     (man)(has) =
+     (power)[that](the)(crystal)(has) (that)      (power)[that](the)(man)(has) =
+the crystal that has power that the man that mas power [has] =
+the powerful crystal that the powerful man [has] =
+the powerful man that has the powerful crystal
+
+so:
+G'athruweyrénir kaja'nir G'athruloisteen'nir
+(g'a)(thru)          (weyré)(nir) (kaja)(nir) (g'a)(thru)          (loisteen')(nir)[nir] =
+(the)(power)[that]     (man)(has) (that)(has) (the)(power)[that]     (crystal)(has)[has] =
+     (power)[that](the)(man)(has) (that)(has)      (power)[that](the)(crystal)(has)[has] =
+the man that has power that has the crystal that has power =
+the powerful man that has the powerful crystal
+
+and it could also be written as:
+G'athruloisteen'nir kaja G'athruweyrénir[nir] =
+G'uweyre kaja thrunir kaja'nir G'aloisteen kaja thrunir
+
+also:
+G'adora thrunir
+(g'a)(dora)  (thru)(nir)
+(the)(world)(power)(has)
+the world has power
+but should generally be:
+G'adora d'uthrunir
+(g'a)(dora)   (d'u)(thru)(nir)
+(the)(world)(some)(power)(has)
+the world has ~~some~~ power
+
+G'uweyre kaja thrunir = G'uweyre kaja'nir D'uthru
+(g'a)(weyre) (kaja) (thru)(nir)
+(the)(man)   (that)(power)(has)
+the man that has power

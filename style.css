@@ -1,0 +1,28 @@
+a, a:link, a:visited {
+    color: rgb(0, 0, 245);
+    margin: 4px 15px;
+    padding: 4px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    border-style: outset;
+    border-width: 2px;
+    border-color: gray;
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: 1px 1px rgb(10, 10, 10);
+    transition: color 0.5s;
+    transition: background-color 0.5s;
+}
+a:hover, a:active {
+    color: rgb(245, 245, 245);
+    background-color: rgb(0, 0, 245);
+}
+a:active {
+    border-style: inset;
+}
+
+legend {
+	font-size: 20px;
+}
