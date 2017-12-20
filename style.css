@@ -23,6 +23,20 @@ a:active {
     border-style: inset;
 }
 
+fieldset {
+	box-shadow: 5px 5px 2px grey;
+}
+
+ul {
+	 text-align: left;
+	 font-size: 20px;"
+}
+
+h2 {
+	 text-align: left;
+	 font-size: 30px;"
+}
+
 legend {
 	font-size: 20px;
 }
