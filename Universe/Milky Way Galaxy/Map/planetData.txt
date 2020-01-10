@@ -1,0 +1,72 @@
+Gaia | Gaian Federation | 14 Billion
+Sirius | Gaian Federation | 
+Toliman | Gaian Federation | 
+Outania | Gaian Federation | 
+B-ABB | Gaian Federation | 
+Dagon | Gaian Federation | 
+Eteron | Gaian Federation | 
+Thafelia | Gaian Federation | 
+Veblion | Gaian Federation | 
+Gyke | Gaian Federation | 
+Oslisis | Gaian Federation | 
+Elexina | Gaian Federation | 
+GAL-2955 | Gaian Federation | 
+Tiotania | Gaian Federation | 
+TW-2901 | Gaian Federation | 
+Gechadus | Gaian Federation | 
+Mirfak | Gaian Federation | 
+Ollion | Gaian Federation | 
+Moktar | Gaian Federation | 
+Ghunn | Gaian Federation | 
+ESK-1035 | Neutral | 
+
+V-1541 | Crozonian Alliance | 
+Crozon | Crozonian Alliance | 
+Aldor | Republic of Aldor | 
+
+Igh'ra | Vaarian Empire | 
+Vaaria | Vaarian Empire | 
+Zon'ra | Vaarian Empire | 
+Saa'ra | Vaarian Empire | 
+
+- | Saberian Union | 
+Callia | Saberian Union | 
+Saber | Saberian Union | 
+
+Cristallia 600 690 Saber
+
+Kraxon | Kraxonian Empire | 
+
+W1 | Kraxonian Empire | 
+
+T2 | Kraxonian Empire | 
+T3 | Kraxonian Empire | 
+T6 | Kraxonian Empire | 
+T7 | Kraxonian Empire | 
+T16 | Kraxonian Empire | 
+T17 | Kraxonian Empire | 
+T21 | Kraxonian Empire | 
+T22 | Kraxonian Empire | 
+T25 | Kraxonian Empire | 
+T26 | Kraxonian Empire | 
+T27 | Kraxonian Empire | 
+T29 | Kraxonian Empire | 
+T30 | Kraxonian Empire | 
+T33 | Kraxonian Empire | 
+
+B-Alpha | Kraxonian Empire | 
+B20 | Kraxonian Empire | 
+B31 | Kraxonian Empire | 
+B32 | Kraxonian Empire | 
+
+R7 | Kraxonian Empire | 
+
+D1 | Kraxonian Empire | 
+D2 | Kraxonian Empire | 
+D3 | Kraxonian Empire | 
+D4 | Kraxonian Empire | 
+D5 | Kraxonian Empire | 
+D6 | Kraxonian Empire | 
+Balphaz | Kraxonian Empire | 
+
+Borgana | Borganian Empire/(Republic) | 
