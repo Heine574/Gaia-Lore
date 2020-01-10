@@ -18,6 +18,7 @@ a, a:link, a:visited {
 a:hover, a:active {
     color: rgb(245, 245, 245);
     background-color: rgb(0, 0, 245);
+    cursor: pointer;
 }
 a:active {
     border-style: inset;
@@ -25,6 +26,7 @@ a:active {
 
 fieldset {
 	box-shadow: 5px 5px 2px grey;
+    cursor: default;
 }
 
 ul {

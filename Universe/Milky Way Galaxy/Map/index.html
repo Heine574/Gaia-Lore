@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/Gaia-Lore/style.css">
+</head>
+<body style="margin:0px; overflow: hidden;" unselectable="on">
+
+<fieldset onselectstart="return false" id="field" style="height: 60px; margin:0px; text-align: center;">
+<legend><b>Map of the Galaxy</b></legend>
+	<a id="borderbtn" onclick=toggleborders()>Hide Labels</a>
+	<a href="/Gaia-Lore/Universe/Milky Way Galaxy/">Back</a>
+</fieldset>
+<canvas id="canvas" tabindex=0 width=400 height=400 style="margin:0px; border:0px solid #000000; left:0px; top:0px; cursor: auto;"></canvas></canvas>
+
+<script>
+var x = 500;
+var y = 400;
+var size = 2;
+var mouseDown = false;
+var mouseX;
+var mouseY;
+var clickX;
+var clickY;
+var oldX = x;
+var oldY = y;
+var data;
+var map = {};
+var wormholes = {};
+var borders = {};
+var showborders = true;
+var c = document.getElementById("canvas");
+var f = document.getElementById("field");
+
+reload();
+resize();
+
+canvas.addEventListener('mousemove', function(evt) {
+	var mousePos = getMousePos(canvas, evt);
+	mouseX = mousePos.x - Math.round(canvas.width/2);
+	mouseY = canvas.height - (mousePos.y + Math.round(canvas.height/2));
+	if (mouseDown) {
+		//console.log(mouseX-clickX, mouseY-clickY);
+		x = oldX - ((mouseX-clickX) / size);
+		y = oldY - ((mouseY-clickY) / size);
+		draw(x, y, size);
+	}
+} );
+
+canvas.addEventListener('wheel', function(evt) {
+	if (evt.deltaY>0) {
+		size /= 1.5;
+	} else {
+		size *= 1.5;
+	}
+	update();
+} );
+
+canvas.onmousedown = function(evt) {
+	var mousePos = getMousePos(canvas, evt);
+	clickX = mousePos.x - Math.round(canvas.width/2);
+	clickY = canvas.height - (mousePos.y + Math.round(canvas.height/2));
+	console.log(mousePos);
+	mouseDown = true;
+}
+canvas.onmouseup = function(evt) {
+	var mousePos = getMousePos(canvas, evt);
+	mouseDown = false;
+	oldX = x;
+	oldY = y;
+}
+
+/*canvas.onclick = function() {
+	var mousePos = getMousePos(canvas, evt);
+	clickX = mousePos.x - Math.round(canvas.width/2);
+	clickY = canvas.height - (mousePos.y + Math.round(canvas.height/2));
+	console.log(clickX, clickY)
+}*/
+
+window.addEventListener("resize", resize);
+
+function getMousePos( canvas, evt ) {
+    var rect = canvas.getBoundingClientRect();
+	pos = {
+        x: Math.floor( ( evt.clientX - rect.left ) / ( rect.right - rect.left ) * canvas.width ),
+        y: Math.floor( ( evt.clientY - rect.top ) / ( rect.bottom - rect.top ) * canvas.height )
+    }
+	//console.log(pos)
+    return pos;
+}
+
+function toggleborders() {
+	showborders = !showborders;
+	b = document.getElementById("borderbtn");
+	if (showborders) {
+		b.text = "Hide Labels"
+	} else {
+		b.text = "Show Labels"
+	}
+	update();
+}
+
+function resize() {
+	c.width = window.innerWidth;
+	c.height = window.innerHeight-80;
+	//f.width = window.innerWidth+10;
+	draw(x, y, size);
+}
+
+function reload() {
+	get("mapData.txt");
+	t = 0;
+	setTimeout(waitForData, 0, t, "map");
+}
+
+function waitForData(t, stage) {
+	if (data == "wait" && t < 200) {
+		setTimeout(waitForData, 500, t+1, stage);
+	} else if (stage == "map") {
+		loadMap(data);
+		get("wormholes.txt");
+		t = 0;
+		setTimeout(waitForData, 0, t, "wormholes");
+	} else if (stage == "wormholes") {
+		loadWormholes(data);
+		get("borders.txt");
+		t = 0;
+		setTimeout(waitForData, 0, t, "borders");
+	} else {
+		loadBorders(data);
+		update();
+	}
+}
+
+function loadMap(mapData) {
+	mapData = mapData.replace(/\r/g, "").replace(/\n\n/g, "\n").split('\n');
+	map = {}
+	for (i in mapData) {
+		mapData[i] = mapData[i].split(' ');
+		console.log(mapData[i], mapData[i].slice(1));
+		mapData[i][1] = parseInt(mapData[i][1]);
+		mapData[i][2] = parseInt(mapData[i][2]);
+		map[mapData[i][0].replace(/%20/g, " ")] = mapData[i].slice(1);
+	}
+	//console.log(mapData);
+}
+
+function loadWormholes(mapData) {
+	mapData = mapData.replace(/\r/g, "").replace(/\n\n/g, "\n").split('\n');
+	wormholes = {}
+	for (i in mapData) {
+		mapData[i] = mapData[i].split(' ');
+		console.log(mapData[i], mapData[i].slice(1));
+		mapData[i][1] = parseInt(mapData[i][1]);
+		mapData[i][2] = parseInt(mapData[i][2]);
+		mapData[i][3] = parseInt(mapData[i][3]);
+		mapData[i][4] = parseInt(mapData[i][4]);
+		wormholes[mapData[i][0].replace(/%20/g, " ")] = mapData[i].slice(1);
+	}
+	//console.log(mapData);
+}
+
+function loadBorders(mapData) {
+	mapData = mapData.replace(/\r/g, "").replace(/\n\n/g, "\n").split('\n');
+	borders = {}
+	for (i in mapData) {
+		mapData[i] = mapData[i].split(' ');
+		console.log(mapData[i], mapData[i].slice(1));
+		points = [mapData[i][1]];
+		for (j = 2; j < mapData[i].length; j += 2) {
+			points.push([parseInt(mapData[i][j]), parseInt(mapData[i][j+1])]);
+		}
+		borders[mapData[i][0].replace(/%20/g, " ")] = points;
+	}
+	//console.log(mapData);
+}
+
+function update() {
+	draw(x, y, size);
+}
+
+function draw(x, y, size) {
+	var ctx = c.getContext("2d");
+	ctx.setTransform(1,0,0,1,0,0);
+	ctx.clearRect(0, 0, c.width, c.height);
+	ctx.translate(c.width/2, c.height/2);
+	ctx.scale(size, size);
+	//drawPoint(ctx, 0, 0, x, y, "none");
+	for (i in wormholes) {
+		point = wormholes[i];
+		drawWormhole(ctx, point[0], point[1], point[2], point[3], x, y, i);
+	}
+	for (i in map) {
+		point = map[i];
+		drawPoint(ctx, point[0], point[1], x, y, i, point.slice(2));
+	}
+	if (showborders) {
+		for (i in borders) {
+			point = borders[i];
+			//console.log(i, point);
+			drawBorder(ctx, point[1][0], point[1][1], x, y, i, point.slice(2), point[0]);
+		}
+	}
+}
+
+function drawPoint(ctx, px, py, cx, cy, name, conns) {
+	ctx.fillStyle = "#000000";
+	ctx.strokeStyle = "#101010";
+	ctx.font = "2.5px Georgia";
+	for (i in conns) {
+		point = map[conns[i]];
+		ctx.beginPath();
+		ctx.lineWidth = 0.5;
+		hx = px + ((point[0]-px)/1.9);
+		hy = py + ((point[1]-py)/1.9);
+		ctx.moveTo(px - cx, -(py - cy));
+		ctx.lineTo(hx - cx, -(hy - cy));
+		ctx.stroke();
+	}
+	ctx.beginPath();
+	ctx.arc(px - cx, -(py - cy), 2, 0, 2 * Math.PI);
+	ctx.clearRect((px - cx) + 2.4, -(py - cy)-1, ctx.measureText(name).width+0.2, 2.5);
+	
+	ctx.fillText(name, (px - cx) + 2.5, -(py - cy)+1);
+	ctx.fill();
+	ctx.lineWidth = 0.2;
+	roundRect(ctx, (px - cx) + 2.3, -(py - cy)-1.1, ctx.measureText(name).width+0.4, 2.6, 0.5);
+}
+
+function drawWormhole(ctx, wx1, wy1, wx2, wy2, cx, cy, name) {
+	ctx.fillStyle = "#000000";
+	ctx.strokeStyle = "#0000AA";
+	ctx.font = "2.5px Georgia";
+	ctx.beginPath();
+	ctx.lineWidth = 0.5;
+	hx = wx1 + ((wx2-wx1)/2);
+	hy = wy1 + ((wy2-wy1)/2);
+	ctx.moveTo(wx1 - cx, -(wy1 - cy));
+	ctx.lineTo(wx2 - cx, -(wy2 - cy));
+	ctx.stroke();
+
+	ctx.strokeStyle = "#101010";
+
+	ctx.beginPath();
+	ctx.clearRect((hx - cx) + 2.4, -(hy - cy)-1, ctx.measureText(name).width+0.2, 2.5);
+	
+	ctx.fillText(name, (hx - cx) + 2.5, -(hy - cy)+1);
+	ctx.fill();
+	ctx.lineWidth = 0.2;
+	roundRect(ctx, (hx - cx) + 2.3, -(hy - cy)-1.1, ctx.measureText(name).width+0.4, 2.6, 0.5);
+}
+
+function drawBorder(ctx, px, py, cx, cy, name, lines, color) {
+	ctx.fillStyle = color;
+	ctx.strokeStyle = color;
+	ctx.font = "2.5px Georgia";
+	lastPoint = lines[lines.length-1];
+	for (i in lines) {
+		point = lines[i];
+		ctx.beginPath();
+		ctx.lineWidth = 0.5;
+		ctx.moveTo(lastPoint[0] - cx, -(lastPoint[1] - cy));
+		ctx.lineTo(point[0] - cx, -(point[1] - cy));
+		ctx.stroke();
+		lastPoint = point;
+	}
+	ctx.beginPath();
+	ctx.clearRect((px - cx) + 2.4, -(py - cy)-1, ctx.measureText(name).width+0.2, 2.5);
+	
+	ctx.fillText(name, (px - cx) + 2.5, -(py - cy)+1);
+	ctx.fill();
+	ctx.lineWidth = 0.2;
+	roundRect(ctx, (px - cx) + 2.3, -(py - cy)-1.1, ctx.measureText(name).width+0.4, 2.6, 0.5);
+}
+
+function get(path, params, cache=true, responseType="text", async=true) {
+	//console.log(path, params, cache, responseType, async);
+    var xhttp = new XMLHttpRequest();
+	if (cache) {
+		txt = ['t=' + Math.random().toString()];
+	}
+	else {
+		txt = [];
+	}
+	for (i in params) {
+		txt.push(i + '=' + params[i]);
+	}
+	if (async) {
+	data = "wait";
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				data = this.response;
+				//console.log(data);
+			}
+		};
+	}
+	txt = "?" + txt.join('&');
+	xhttp.open("GET", path + txt, async);
+	if (async) {xhttp.responseType = responseType;}
+	//xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhttp.send();
+	if (!async) {return xhttp.responseText;}
+}
+
+//by Juan Mendes
+function roundRect(ctx, x, y, width, height, radius, fill, stroke) {
+  if (typeof stroke === 'undefined') {
+    stroke = true;
+  }
+  if (typeof radius === 'undefined') {
+    radius = 5;
+  }
+  if (typeof radius === 'number') {
+    radius = {tl: radius, tr: radius, br: radius, bl: radius};
+  } else {
+    var defaultRadius = {tl: 0, tr: 0, br: 0, bl: 0};
+    for (var side in defaultRadius) {
+      radius[side] = radius[side] || defaultRadius[side];
+    }
+  }
+  ctx.beginPath();
+  ctx.moveTo(x + radius.tl, y);
+  ctx.lineTo(x + width - radius.tr, y);
+  ctx.quadraticCurveTo(x + width, y, x + width, y + radius.tr);
+  ctx.lineTo(x + width, y + height - radius.br);
+  ctx.quadraticCurveTo(x + width, y + height, x + width - radius.br, y + height);
+  ctx.lineTo(x + radius.bl, y + height);
+  ctx.quadraticCurveTo(x, y + height, x, y + height - radius.bl);
+  ctx.lineTo(x, y + radius.tl);
+  ctx.quadraticCurveTo(x, y, x + radius.tl, y);
+  ctx.closePath();
+  if (fill) {
+    ctx.fill();
+  }
+  if (stroke) {
+    ctx.stroke();
+  }
+
+}
+</script>
+
+
+</body>
+</html>

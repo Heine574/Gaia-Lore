@@ -1,0 +1,77 @@
+Gaia 500 400 Toliman Outania B-ABB Thafelia Sirius
+Toliman 486 387 Gaia
+Outania 523 416 Gaia Eteron
+B-ABB 555 407 Gaia Dagon Gechadus
+Dagon 571 391 B-ABB Eteron
+Eteron 560 425 Dagon Outania Gechadus
+Thafelia 469 407 Gaia Sirius
+Sirius 494 431 Gaia Veblion Thafelia
+Veblion 472 456 Sirius Gyke
+Gyke 459 477 Veblion Elexina Oslisis GAL-2955 Tiotania
+Oslisis 432 462 Gyke
+Elexina 422 514 Gyke
+GAL-2955 489 513 Gyke Tiotania
+Tiotania 485 483 Gyke GAL-2955
+TW-2901 547 537
+Gechadus 601 432 Eteron B-ABB Mirfak
+Mirfak 600 456 Gechadus Ollion Moktar
+Ollion 637 467 Mirfak
+Moktar 610 482 Mirfak Ghunn
+Ghunn 640 502 Moktar ESK-1035 V-1541
+ESK-1035 666 495 Ghunn
+
+Eorta 692 405 B-PQN
+B-PQN 733 425 Eorta
+
+Eblonii 647 350
+
+V-1541 648 523 Ghunn Crozon
+Crozon 681 515 V-1541 Aldor Igh'ra
+Aldor 697 507 Crozon
+
+Igh'ra 714 530 Crozon Vaaria
+Vaaria 702 555 Igh'ra Zon'ra
+Zon'ra 712 581 Vaaria Saa'ra
+Saa'ra 692 597 Zon'ra
+
+- 705 655 Callia
+Callia 710 679 - Saber
+Saber 700 700 Callia Cristallia
+
+Cristallia 600 690 Saber
+
+Kraxon 81 784 T2 R7 T33 W1
+
+W1 66 785 Kraxon
+
+T2 80 743 Kraxon T6 T3
+T3 146 769 T2 B-Alpha R7
+T6 137 681 T2 T7 B-Alpha
+T7 175 652 T6 T16
+T16 222 654 T7 T17 B20
+T17 226 677 T16 B32
+T21 331 668 T22 B32
+T22 352 645 Balphaz T21 T25
+T25 369 671 T22 Balphaz T26
+T26 381 649 Balphaz T25 T27
+T27 399 657 T26 D6 T29
+T29 412 675 T27 T30
+T30 401 692 T29
+T33 83 817 Kraxon R7
+
+B-Alpha 155 740 T6 T3
+B20 233 604 B31 T16
+B31 279 648 B32 B20
+B32 285 685 T21 T17 B31
+
+R7 120 797 T3 Kraxon T33
+
+D1 480 800 D2
+D2 475 760 D1 D3
+D3 496 720 D2 D4
+D4 478 680 D3 D5
+D5 440 640 D4 D6
+D6 412 615 D5 Balphaz T27
+Balphaz 374 595 D6 T22 T26 T25
+
+Borgana 912 621
