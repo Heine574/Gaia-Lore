@@ -8,7 +8,7 @@
 <fieldset onselectstart="return false" id="field" style="height: 60px; margin:0px; text-align: center;">
 <legend><b>Map of the Galaxy</b></legend>
 	<a id="borderbtn" onclick=toggleborders()>Hide Labels</a>
-	<a href="/Gaia-Lore/Universe/Milky Way Galaxy/">Back</a>
+	<a href="/Gaia-Lore/Universe/Wintergatan/">Back</a>
 </fieldset>
 <canvas id="canvas" tabindex=0 width=400 height=400 style="margin:0px; border:0px solid #000000; left:0px; top:0px; cursor: auto;"></canvas></canvas>
 
@@ -230,9 +230,15 @@ function drawInfo(ctx, name, px, py, cx, cy) {
 	ctx.fillStyle = "#000000";
 	ctx.strokeStyle = "#101010";
 	info = planets[name];
-	txt = "%n\n%1\n\n"
+	if (info[1] != "N/A") {
+		settle = "\n\nColonized in " + info[1];
+	} else {
+		settle = "";
+	}
+	txt = "%n\n%0%1"
 	.replace("%n", name)
-	.replace("%1", info[0])
+	.replace("%0", info[0])
+	.replace("%1", settle)
 	.split('\n');
 	ctx.font = "2.5px Georgia";
 

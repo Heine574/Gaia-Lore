@@ -42,3 +42,14 @@ h2 {
 legend {
 	font-size: 20px;
 }
+
+hr {
+    width: 50%;
+    margin-top: 7px;
+    margin-bottom: 6px;
+    border-style: outset;
+}
+
+* {
+  box-sizing: border-box;
+}

@@ -1,0 +1,86 @@
+Ke | Of | 1
+K'as | To | 1
+T'os | For | 1
+Kus | By | 1
+Haios | Over | 1
+Gutos | Under | 1
+Ji | In | 1
+Kij | About | 1
+T'is | Using | 1
+T'a | With | 1
+T'o | Until | 1
+Giji | As | 1
+Ko | Against | 1
+Pa | From | 1
+Ker | At | 1
+Katos | Before | 1
+Eites | After | 1
+Ki | Through | 1
+ |  | 1
+ |  | 1
+ |  | 1
+ |  | 1
+ |  | 1
+ |  | 1
+ |  | 1
+ |  | 1
+ |  | 1
+ |  | 1
+
+Zet&#770 | I | 2
+Zin | You | 2
+Aru | He | 2
+Ara | She | 2
+Ar | It | 2
+Zei | We | 2
+Zi | Y'all | 2
+Ari | They | 2
+Arik' | This | 2
+Arik'i | These | 2
+Fo | Who | 2
+Fi | Which | 2
+Zen | Me | 2
+Zin | You<small>(Object)</small> | 2
+Arun | Him | 2
+Aran | Her | 2
+Arin | It<small>(Object)</small> | 2
+Zein | Us | 2
+Arini | Them | 2
+Nhai | What | 2
+Kez | My | 2
+Kin | Your | 2
+Karu | His | 2
+Kara | Her | 2
+Kar(i) | Its | 2
+Kein(Kezi) | Our | 2
+Kin | Y'alls | 2
+Karin | Their | 2
+
+Kaia&#770 | That | 3
+Aio&#770 | Or | 3
+Feje | And | 3
+Toje | But | 3
+Lirnim&#770 | Because | 3
+Aje | Than | 3
+Uja | If | 3
+Galo&#770 | When | 3
+Lome&#770 | Although | 3
+Fito | Many | 3
+St'e | All | 3
+Sata | Every | 3
+Raja&#770 | Such | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3
+ |  | 3

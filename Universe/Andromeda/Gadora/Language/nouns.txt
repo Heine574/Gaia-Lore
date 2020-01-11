@@ -1,0 +1,215 @@
+Thru | Power | m | 1
+Togu | Story | m | 1
+Seioro | Worth | m | 1
+Sirko | Writ | m | 1
+Wei | Man | m | 1
+Naio | Boy | m | 1
+Lokhu | Father | m | 1
+Soru | Son | m | 1
+Kuheno | Fear | m | 1
+Jiru | Life | m | 1
+Naiku | Meaning | m | 1
+T'angu | Language | m | 1
+Sait'u | Number | m | 1
+Weron | Use | m | 1
+Doko | Strength | m | 1
+Salen | Truth | m | 1
+Sion | Victory | m | 1
+Suno | Fury | m | 1
+J'angu | Patience | m | 1
+Kit'o | Force | m | 1
+Do | Day | m | 1
+Juno | Pleasure | m | 1
+Sit'o | Reward | m | 1
+K'un | Fight | m | 1
+Saor | Lord | m | 1
+Velen | Book | m | 1
+Thalen | Friend | m | 1
+T'alo | Goal | m | 1
+Okondo | Evil | m | 1
+Doro | Will | m | 1
+Jat'o | Shout | m | 1
+T'ekatu | Armor | m | 1
+Saku | Creation | m | 1
+T'oru | Banner | m | 1
+Hiro | Chaos | m | 1
+Ratino | Part | m | 1
+Svaoko | Hunger | m | 1
+Srekus | Courage | m | 1
+Siselo | Cold | m | 1
+Kalaro | Heat | m | 1
+Vakaro | Caution | m | 1
+T'olo | Pride | m | 1
+Ledu | Knowledge | m | 1
+Gashovo | Attention | m | 1
+Taku | Enemy | m | 1
+Zuer | Gaze | m | 1
+Karo | Shadow | m | 1
+Su | Peak | m | 1
+Bolu | Fire | m | 1
+Hadaro | Bow | m | 1
+Sakt'u | Respect | m | 1
+Pilu | Fish | m | 1
+Haru | Attempt | m | 1
+Elu | Stream | m | 1
+Vok'o | Body | m | 1
+Saj | Ape | m | 1
+F'oro | Street | m | 1
+Uku | Command | m | 1
+Skaro | Speed | m | 1
+Lihu | Bread | m | 1
+T'ornu | Storm | m | 1
+Faeru | Isolation | m | 1
+Noru <small>(Archaic)</small> | Loss | m | 1
+Sakaru | Confession | m | 1
+Valo | Valley | m | 1
+ |  | m | 1
+
+Yurin | Ruler | n | 1
+Aven | Space | n | 1
+Iuet | Rest | n | 1
+Osin | Prowler | n | 1
+Atiih | Song | n | 1
+Izei | Town | n | 1
+Il | Demon | n | 1
+Soro | Child | n | 1
+Ot'on | Word | n | 1
+Loit' | Thought | n | 1
+Halaj | End | n | 1
+Falan | Person | n | 1
+Yuriih | Rule | n | 1
+Alan | Grass | n | 1
+K'erej | Limit | n | 1
+Kofe | Question | n | 1
+Otoliih | Endurance | n | 1
+Alt' | Attack | n | 1
+Adar | Crown | n | 1
+Aior | River | n | 1
+Yvin | Fool | n | 1
+Yvei | Folly | n | 1
+Sediek | Bird | n | 1
+Kaliih | Freedom | n | 1
+Rash | Treasure | n | 1
+Nengin | Servant | n | 1
+Vorin | Cook | n | 1
+Lin | Baker | n | 1
+Kairin | Rescuer | n | 1
+Nengo | Service | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+ |  | n | 1
+
+Dora | Domain | f | 1
+Silia | Crystal | f | 1
+Ania | Water | f | 1
+Raha | Earth | f | 1
+Weirea | Woman | f | 1
+Rel | Girl | f | 1
+Nabina | Mother | f | 1
+Sora | Daughter | f | 1
+Zutur | Whisper | f | 1
+Duro | Love | f | 1
+K'anoxa | Spirit | f | 1
+Tempa | Moon | f | 1
+Xolda | Sweet | f | 1
+Grava | Lightning | f | 1
+Lit'a | Music | f | 1
+Maga | Time | f | 1
+Hidal | Citadel | f | 1
+Sa | Road | f | 1
+T'oka | Belonging | f | 1
+St'een | Rock | f | 1
+Iiano | Night | f | 1
+Luro | Reality | f | 1
+Silo | Good | f | 1
+Vil | Weakness | f | 1
+Sano | Break | f | 1
+Ran | Name | f | 1
+Thalin | Friend | f | 1
+Roiano | Innocence | f | 1
+Sean | Hope | f | 1
+Bara | Heart | f | 1
+Oma | Battle | f | 1
+Naia | Joy | f | 1
+Kopano | Abyss | f | 1
+Kel | Moment | f | 1
+Varo | Death | f | 1
+Lak'ea | Grace | f | 1
+Faiano | Grief | f | 1
+T'arato | Laughter | f | 1
+Til | Existance | f | 1
+Fino | Sky | f | 1
+Xanv'o | Darkness | f | 1
+Ka | Chance | f | 1
+Rana | Soul | f | 1
+Jafo | Distance | f | 1
+Zivir | Inspiration | f | 1
+Lakar | Preparation | f | 1
+Karavo | Understanding | f | 1
+Tuia | Gift | f | 1
+Svaolena | Guilt | f | 1
+Nuro | Unity | f | 1
+Spir | Array | f | 2
+Jal | Unit | f | 1
+Lowa | Clan | f | 1
+Harava | Secret | f | 1
+Laro | Luck | f | 1
+Xandra | Wind | f | 1
+Zudo | Humility | f | 1
+Sona | Wave | f | 1
+Jana | Blessing | f | 1
+Kama | Creature | f | 1
+Majin | Beauty | f | 1
+Voa | Food | f | 1
+Sakona | Safety | f | 1
+Kaira | Rescue | f | 1
+Vosa | Track | f | 1
+Veihel | Howl | f | 1
+Zaro | Finality | f | 1
+
+Rathor | Bond | m | 2
+Goreth | Depth | m | 2
+Roth | Scar | m | 2
+Lir(n?) | Cause | m | 2
+
+Usor(!) | Sword | n | 2
+Vor | Machine | n | 2
+Mor | Blood | n | 2
+ |  | n | 2
+
+Siar | Light | f | 2
+Tros | City | f | 2
+ |  | f | 2

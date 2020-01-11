@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/Gaia-Lore/style.css">
+<title>Gadoran Language</title>
+</head>
+<body>
+<fieldset style="margin: 0% 5% 0% 5%;">
+	<h1 style="text-align: center;">The Official Dictionary of the Gadoran Language</h1>
+</fieldset>
+<fieldset onselectstart="return false" style="margin: 1% 5% 0% 5%; text-align: center;">
+	<a href="/Gaia-Lore/Universe/Andromeda/Gadora">Back</a>
+	<a onclick=showNouns()>Nouns</a>
+	<a onclick=showVerbs()>Verbs</a>
+	<a onclick=showAdjectives()>Adjectives</a>
+	<a onclick=showAdverbs()>Adverbs</a>
+	<a onclick=showOther()>Other</a>
+</fieldset>
+<fieldset hidden=true id="content" style="margin: 1% 5% 0% 5%; text-align: center;">
+	
+</fieldset>
+<script>
+function showNouns() {
+	c = document.getElementById("content");
+	c.hidden = false
+	c.innerHTML = `
+<h1>1st Declension</h1>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Feminine Nouns</b></legend>
+	%fn0
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Neuter Nouns</b></legend>
+	%nn0
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Masculine Nouns</b></legend>
+	%mn0
+</fieldset>
+<div style="width: 100%; float: left;">
+<h1>2nd Declension</h1>
+</div>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Feminine Nouns</b></legend>
+	%fn1
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Neuter Nouns</b></legend>
+	%nn1
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Masculine Nouns</b></legend>
+	%mn1
+</fieldset>
+`
+.replace("%fn0", nouns[0]["f"])
+.replace("%nn0", nouns[0]["n"])
+.replace("%mn0", nouns[0]["m"])
+.replace("%fn1", nouns[1]["f"])
+.replace("%nn1", nouns[1]["n"])
+.replace("%mn1", nouns[1]["m"])
+}
+
+function showVerbs() {
+	c = document.getElementById("content");
+	c.hidden = false
+	c.innerHTML = `
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<!--legend><b></b></legend-->
+ha\`Ti - to Be<br>
+<br>
+Zet&#770\`i - I am<br>
+Zin\`it&#770 - You are<br>
+Ar\`im&#770 - It is<br>
+<br>
+Zei\`ri - We are<br>
+Zi\`rit&#770 - You are<br>
+Ari\`rim&#770 - They are<br>
+	%1
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<!--legend><b></b></legend-->
+ha\`Kal - to Do<br>
+<br>
+Zet&#770\`kala - I do<br>
+Zin\`kalat&#770 - You do<br>
+Ar\`kalam&#770 - It does<br>
+<br>
+Zei\`kala - We do<br>
+Zi\`kalat&#770 - You do<br>
+Ari\`kalam&#770 - They do<br>
+	%2
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<!--legend><b></b></legend-->
+ha\`Var - to Go<br>
+<br>
+Zet&#770\`ar&#770 - I go<br>
+Zin\`ar - You go<br>
+Ar\`v&#770as - It goes<br>
+<br>
+Zei\`va - We go<br>
+Zi\`var - You go<br>
+Ari\`vas - They go<br>
+	%3
+</fieldset>
+`
+.replace("%1", verbs["1"])
+.replace("%2", verbs["2"])
+.replace("%3", verbs["3"])
+}
+
+function showAdjectives() {
+	c = document.getElementById("content");
+	c.hidden = false
+	c.innerHTML = `
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Adjectives</b></legend>
+	%1
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Adjectives</b></legend>
+	%2
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Colors</b></legend>
+	%3
+</fieldset>
+`
+.replace("%1", adjectives["1"])
+.replace("%2", adjectives["2"])
+.replace("%3", adjectives["3"])
+}
+
+function showAdverbs() {
+	c = document.getElementById("content");
+	c.hidden = false
+	c.innerHTML = `
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+	%1
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+	%2
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+	%3
+</fieldset>
+`
+.replace("%1", adverbs["1"])
+.replace("%2", adverbs["2"])
+.replace("%3", adverbs["3"])
+}
+
+function showOther() {
+	c = document.getElementById("content");
+	c.hidden = false
+	c.innerHTML = `
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Prepositions</b></legend>
+	%1
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Pronouns & Possesives</b></legend>
+	%2
+</fieldset>
+<fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
+<legend><b>Conjugations & Determiners</b></legend>
+	%3
+</fieldset>
+`
+.replace("%1", other["1"])
+.replace("%2", other["2"])
+.replace("%3", other["3"])
+}
+
+
+var nouns;
+var verbs;
+var adjectives;
+var adverbs;
+var other;
+
+load();
+
+function load() {
+	get("nouns.txt");
+	t = 0;
+	setTimeout(waitForData, 0, t, "nouns");
+}
+
+function waitForData(t, stage) {
+	if (data == "wait" && t < 200) {
+		setTimeout(waitForData, 500, t+1, stage);
+	} else if (stage == "nouns") {
+		loadNouns(data);
+		get("verbs.txt");
+		t = 0;
+		setTimeout(waitForData, 0, t, "verbs");
+	} else if (stage == "verbs") {
+		loadVerbs(data);
+		get("adjectives.txt");
+		t = 0;
+		setTimeout(waitForData, 0, t, "adjectives");
+	} else if (stage == "adjectives") {
+		loadAdjectives(data);
+		get("adverbs.txt");
+		t = 0;
+		setTimeout(waitForData, 0, t, "adverbs");
+	} else if (stage == "adverbs") {
+		loadAdverbs(data);
+		get("other.txt");
+		t = 0;
+		setTimeout(waitForData, 0, t, "other");
+	} else {
+		loadOther(data);
+	}
+}
+
+function loadNouns(textData) {
+	textData = textData.replace(/\r/g, "").replace(/\n\n/g, "\n").split('\n');
+	nouns = [
+{'n': "", 'm': "", 'f': ""},
+{'n': "", 'm': "", 'f': ""}];
+	for (i in textData) {
+		textData[i] = textData[i].split(' | ');
+		nouns[textData[i][3]-1][textData[i][2]] = nouns[textData[i][3]-1][textData[i][2]].concat(
+"<hr>%0 - %1"
+.replace("%0", textData[i][0])
+.replace("%1", textData[i][1])
+			);
+	}
+}
+
+var vowels = ['A', 'E', 'O', 'U'];
+
+function loadVerbs(textData) {
+	textData = textData.replace(/\r/g, "").replace(/\n\n/g, "\n").split('\n');
+	verbs = {'1': "", '2': "", '3': ""};
+	for (i in textData) {
+		textData[i] = textData[i].split(' | ');
+		if (vowels.includes(textData[i][0][0])) {
+			h = "h";
+		} else {
+			h = "ha";
+		}
+		verbs[textData[i][2]] = verbs[textData[i][2]].concat(
+"<hr>%h\`%0 - to %1"
+.replace("%0", textData[i][0])
+.replace("%1", textData[i][1])
+.replace("%h", h)
+			);
+	}
+}
+
+function loadAdjectives(textData) {
+	textData = textData.replace(/\r/g, "").replace(/\n\n/g, "\n").split('\n');
+	adjectives = {'1': "", '2': "", '3': ""};
+	for (i in textData) {
+		textData[i] = textData[i].split(' | ');
+		adjectives[textData[i][2]] = adjectives[textData[i][2]].concat(
+"<hr>%0 - %1"
+.replace("%0", textData[i][0])
+.replace("%1", textData[i][1])
+			);
+	}
+}
+
+function loadAdverbs(textData) {
+	textData = textData.replace(/\r/g, "").replace(/\n\n/g, "\n").split('\n');
+	adverbs = {'1': "", '2': "", '3': ""};
+	for (i in textData) {
+		textData[i] = textData[i].split(' | ');
+		adverbs[textData[i][2]] = adverbs[textData[i][2]].concat(
+"<hr>%0 - %1"
+.replace("%0", textData[i][0])
+.replace("%1", textData[i][1])
+			);
+	}
+}
+
+function loadOther(textData) {
+	textData = textData.replace(/\r/g, "").replace(/\n\n/g, "\n").split('\n');
+	other = {'1': "", '2': "", '3': ""};
+	for (i in textData) {
+		textData[i] = textData[i].split(' | ');
+		other[textData[i][2]] = other[textData[i][2]].concat(
+"<hr>%0 - %1"
+.replace("%0", textData[i][0])
+.replace("%1", textData[i][1])
+			);
+	}
+}
+
+function get(path, params, cache=true, responseType="text", async=true) {
+	//console.log(path, params, cache, responseType, async);
+    var xhttp = new XMLHttpRequest();
+	if (cache) {
+		txt = ['t=' + Math.random().toString()];
+	}
+	else {
+		txt = [];
+	}
+	for (i in params) {
+		txt.push(i + '=' + params[i]);
+	}
+	if (async) {
+	data = "wait";
+		xhttp.onreadystatechange = function() {
+			if (this.readyState == 4 && this.status == 200) {
+				data = this.response;
+				//console.log(data);
+			}
+		};
+	}
+	txt = "?" + txt.join('&');
+	xhttp.open("GET", path + txt, async);
+	if (async) {xhttp.responseType = responseType;}
+	//xhttp.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	xhttp.send();
+	if (!async) {return xhttp.responseText;}
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+Ilt | Not | 1
+Tes | Very | 2
+Ban | So | 3
+
+K'asi | There | 1
+Toi | Ago | 2
+Nhur | Just | 3
+
+T'os fi | Therefore | 1
+Daki | Now | 2
+Ste' maga | Always | 3
+
+Tei | Why | 1
+Nhoki | Ever | 2
+Ilt nhoki | Never | 3
+
+Jis | Into | 1
+Vika | Quite | 2
+Sir | Also | 3
+
+Nvara | Nevertheless | 1
+Raniki | Definitely | 2
+Akai | Here | 3
+
+Faro | Where | 1
+T'oj | Out | 2
+Roso | More | 3
+
+Sum | Furiously | 1
+Dokom | Strongly | 2
+Vilom | Weakly | 3
+
+Seiorom | Worthily | 1
+Lurom | Really | 2
+Kuhem | Fearfully | 3
+
+Skarom | Quickly | 1
+Salom(Salem?) | Truly | 2
+Jum | Pleasantly | 3

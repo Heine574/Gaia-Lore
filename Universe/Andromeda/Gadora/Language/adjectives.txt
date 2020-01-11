@@ -1,0 +1,107 @@
+Hai | Tall | 1
+Gwit | Short | 2
+Sumohena | Blue | 3
+
+Sisel | Cold | 1
+Kalar | Hot | 2
+Durkwu | Black | 3
+
+Sil | Good | 1
+Pak' | Bad | 2
+Ieslie | Pink | 3
+
+F'ai | Different | 1
+Jiural | Alike | 2
+Iunokima | Purple | 3
+
+Dok | Strong | 1
+Vilon | Weak | 2
+K'azinnoku | Orange | 3
+
+Kuhen | Afraid | 1
+Sreke | Brave | 2
+Vaznichu | Green | 3
+
+Sun | Furious | 1
+( ) | Calm | 2
+Xanf'u | Dark | 3
+
+Seior | Worthy | 1
+( ) | Worthless | 2
+K'lazine | White | 3
+
+T'ol | Proud | 1
+( ) | Humble | 2
+Makeza | Brown | 3
+
+Jun | Pleasant | 1
+( ) | Unpleasant | 2
+Enfazgu | Red | 3
+
+Roian | Innocent | 1
+Svaole | Guilty | 2
+Jau | Yellow | 3
+
+Naialon | Happy | 1
+Faian | Sad | 2
+T'aol | Gold | 3
+
+Lak'ealon | Gracious | 1
+Lak'ealis | Cruel | 2
+ |  | 3
+
+Lon | Full | 1
+Lis | Empty | 2
+ |  | 3
+
+Keliah | New | 1
+Kelhaz | Old | 2
+ |  | 3
+
+Okon | Evil | 1
+( ) | ( ) | 2
+ |  | 3
+
+Haz | Long | 1
+Iah | Short | 2
+ |  | 3
+
+Tilon | Existent | 1
+( ) | Gone | 2
+ |  | 3
+
+Jafiah | Near | 1
+Jafhaz | Far | 2
+ |  | 3
+
+Mar | Hard | 1
+Nol | Soft | 2
+ |  | 3
+
+Sal | True | 1
+Ilt sal | Untrue | 2
+ |  | 3
+
+Lar | Lucky | 1
+Larlis | Unlucky | 2
+ |  | 3
+
+( ) | Alive | 1
+( ) | Dead | 2
+ |  | 3
+
+Fae | Alone | 1
+( ) | ( ) | 2
+ |  | 3
+
+Kal | Free | 1
+( ) | ( ) | 2
+ |  | 3
+
+Sako | Safe | 1
+( ) | ( ) | 2
+ |  | 3
+
+Jal-ha | First | 1
+Zar | Last | 2
+ |  | 3

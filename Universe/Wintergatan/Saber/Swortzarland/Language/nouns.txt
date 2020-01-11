@@ -1,0 +1,51 @@
+sàl | man | 1 | 1
+
+tràv | rock | 1 | 2
+
+tùv | place / ground / soil | 1 | 3
+
+dòkra | home | 1 | 3
+
+fàn | fire | 1 | 4
+
+nàs | animal | 1 | 5
+
+tìl | river | 1 | 3
+
+fàn | time | 1 | 6
+
+tuva`ūkra | forest | 1 | 3
+
+n`āgre | star | 1 | 7
+
+sàles̄ | hunter | 1 | 9
+
+omsjà | lake | 1 | 9
+
+fjèn̄evro | wind | 1 | 7
+
+fjèn̄ | air | 1 | 9
+
+ònam̄ | love | 1 | 9
+
+sjòn | sky | 1 | 9
+
+olostj`ā | bet | 1 | 9
+
+sàlen̄ | fisher | 1 | 9
+
+sùn | gold | 1 | 9
+
+kwòrs | mountain | 1 | 9
+
+<strong>gramar</strong> | <strong>declining</strong>            | 2 | 3
+nom. sing. indefinite |       | 2 | 3
+nom. sing. definite   | ān    | 2 | 3
+nom. plur. indefinite | ām̄    | 2 | 3
+nom. plur. definite   | ānām̄  | 2 | 3
+acc. sing. indefinite | agi   | 2 | 3
+acc. sing. definite   | aj̄ta  | 2 | 3
+acc. plur. indefinite | agjam̄ | 2 | 3
+acc. plur. definite   | aj̄tām̄ | 2 | 3
+
+<strong>stress</strong> | The stress of the word is always on the first long vowel (witha macron: ā) of the word. If there is none, the stess is the same as on the root | 2 | 3
