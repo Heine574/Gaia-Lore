@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="/Gaia-Lore/style.css">
+<title>Character Reference</title>
+</head>
+<body>
+	<div>
+		<fieldset onselectstart="return false" style="margin: 1% 0% 0% 0%; text-align: center;">
+			<h1 style="text-align: center;">Character Reference</h1>
+			<a href="/Gaia-Lore/Universe">Back</a>
+		</fieldset>
+<iframe id="frame" style="margin: 1% 0% 0% 0%;" width=400 height=400 src="https://docs.google.com/document/d/e/2PACX-1vTjuRvOoTpGlfpACL5mAfcffeI4hxWf16t9HiG1y3kVV4Xl84ppu3Ywv1dbbV1aPWy4ia1qGE1Adc4l/pub?embedded=true"></iframe>
+<script>
+f = document.getElementById("frame");
+f.width = window.innerWidth*0.98
+
+function resize() {
+	f.width = window.innerWidth*0.98;
+	f.height = window.innerHeight*0.8;
+
+	window.addEventListener("resize", resize);
+}
+
+resize();
+</script>
+</body>
+</html>
