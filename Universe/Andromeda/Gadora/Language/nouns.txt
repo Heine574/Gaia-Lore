@@ -65,6 +65,7 @@ Sakaru | Confession | m | 1
 Valo | Valley | m | 1
  |  | m | 1
  |  | m | 1
+ |  | m | 1
 
 Yurin | Ruler | n | 1
 Aven | Space | n | 1
@@ -96,6 +97,7 @@ Vorin | Cook | n | 1
 Lin | Baker | n | 1
 Kairin | Rescuer | n | 1
 Nengo | Service | n | 1
+ |  | n | 1
  |  | n | 1
  |  | n | 1
  |  | n | 1
@@ -184,7 +186,6 @@ Karavo | Understanding | f | 1
 Tuia | Gift | f | 1
 Svaolena | Guilt | f | 1
 Nuro | Unity | f | 1
-Spir | Array | f | 2
 Jal | Unit | f | 1
 Lowa | Clan | f | 1
 Harava | Secret | f | 1
@@ -202,6 +203,7 @@ Vosa | Track | f | 1
 Veihel | Howl | f | 1
 Zaro | Finality | f | 1
 Xaltania | Translation | f | 1
+Kania | Honor | f | 1
 
 Rathor | Bond | m | 2
 Goreth | Depth | m | 2
@@ -209,14 +211,14 @@ Roth | Scar | m | 2
 Lirn | Cause | m | 2
 Umyr | Star | m | 2
 
- |  | n | 2
 Vor | Machine | n | 2
 Mor | Blood | n | 2
+ |  | n | 2
  |  | n | 2
  |  | n | 2
 
 Siar | Light | f | 2
 Tros | City | f | 2
 Chastar | Sword | f | 2
- |  | f | 2
+Spir | Array | f | 2
  |  | f | 2
