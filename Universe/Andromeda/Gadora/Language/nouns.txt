@@ -202,17 +202,22 @@ Vosa | Track | f | 1
 Veihel | Howl | f | 1
 Zaro | Finality | f | 1
 Xaltania | Translation | f | 1
+Chastar | Sword
 
 Rathor | Bond | m | 2
 Goreth | Depth | m | 2
 Roth | Scar | m | 2
-Lir(n?) | Cause | m | 2
+Lirn | Cause | m | 2
+Umyr | Star | m | 2
 
-Usor(!) | Sword | n | 2
+ |  | n | 2
 Vor | Machine | n | 2
 Mor | Blood | n | 2
+ |  | n | 2
  |  | n | 2
 
 Siar | Light | f | 2
 Tros | City | f | 2
+ |  | f | 2
+ |  | f | 2
  |  | f | 2
