@@ -202,7 +202,6 @@ Vosa | Track | f | 1
 Veihel | Howl | f | 1
 Zaro | Finality | f | 1
 Xaltania | Translation | f | 1
-Chastar | Sword
 
 Rathor | Bond | m | 2
 Goreth | Depth | m | 2
@@ -218,6 +217,6 @@ Mor | Blood | n | 2
 
 Siar | Light | f | 2
 Tros | City | f | 2
- |  | f | 2
+Chastar | Sword | f | 2
  |  | f | 2
  |  | f | 2
