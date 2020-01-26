@@ -64,6 +64,7 @@ Noru <small>(Archaic)</small> | Loss | m | 1
 Sakaru | Confession | m | 1
 Valo | Valley | m | 1
  |  | m | 1
+ |  | m | 1
 
 Yurin | Ruler | n | 1
 Aven | Space | n | 1
@@ -95,6 +96,7 @@ Vorin | Cook | n | 1
 Lin | Baker | n | 1
 Kairin | Rescuer | n | 1
 Nengo | Service | n | 1
+ |  | n | 1
  |  | n | 1
  |  | n | 1
  |  | n | 1
@@ -199,6 +201,7 @@ Kaira | Rescue | f | 1
 Vosa | Track | f | 1
 Veihel | Howl | f | 1
 Zaro | Finality | f | 1
+Xaltania | Translation | f | 1
 
 Rathor | Bond | m | 2
 Goreth | Depth | m | 2
