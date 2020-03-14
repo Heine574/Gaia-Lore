@@ -97,7 +97,7 @@ Vorin | Cook | n | 1
 Lin | Baker | n | 1
 Kairin | Rescuer | n | 1
 Nengo | Service | n | 1
-Tecatin | Protector | n | 1
+T'ekatin | Protector | n | 1
  |  | n | 1
  |  | n | 1
  |  | n | 1
