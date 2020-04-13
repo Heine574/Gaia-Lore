@@ -14,7 +14,7 @@ Var | Die | 1
 At'i | Sing | 1
 T'arat | Laugh | 1
 T'ekat | Protect | 1
-Yur | Rule | 1
+Yar | Rule | 1
 Zue | Look | 1
 Zivi | Inspire | 1
 Sale | Trust | 1
