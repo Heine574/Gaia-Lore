@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="/Gaia-Lore/style.css">
+<link rel="stylesheet" type="text/css" href="style.css">
 <title>Gadoran Language</title>
 </head>
 <body>
-<fieldset style="margin: 0% 5% 0% 5%;">
-	<h1 style="text-align: center;">The Official Dictionary of the Gadoran Language</h1>
-</fieldset>
-<fieldset onselectstart="return false" style="margin: 1% 5% 0% 5%; text-align: center;">
-	<a href="/Gaia-Lore/Universe/Andromeda/Gadora">Back</a>
-	<a onclick=showNouns()>Nouns</a>
-	<a onclick=showVerbs()>Verbs</a>
-	<a onclick=showAdjectives()>Adjectives</a>
-	<a onclick=showAdverbs()>Adverbs</a>
-	<a onclick=showOther()>Other</a>
-</fieldset>
-<fieldset hidden=true id="content" style="margin: 1% 5% 0% 5%; text-align: center;">
+<div class="header-background">
+	<div class="header">
+		<h1>The Official Dictionary of the Gadoran Language</h1>
+	</div>
+	<div class="header" onselectstart="return false">
+		<a href="/Gaia-Lore/Universe/Andromeda/Gadora">Back</a>
+		<a onclick=showNouns()>Nouns</a>
+		<a onclick=showVerbs()>Verbs</a>
+		<a onclick=showAdjectives()>Adjectives</a>
+		<a onclick=showAdverbs()>Adverbs</a>
+		<a onclick=showOther()>Other</a>
+	</div>
+</div>
+<div hidden=true id="content">
 	
-</fieldset>
+</div>
 <script>
 function showNouns() {
 	c = document.getElementById("content");
 	c.hidden = false
 	c.innerHTML = `
-<h1>1st Declension</h1>
+<h1 class="content-header">1st Declension</h1>
 <fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
 <legend><b>Feminine Nouns</b></legend>
 	%fn0
@@ -38,7 +40,7 @@ function showNouns() {
 	%mn0
 </fieldset>
 <div style="width: 100%; float: left;">
-<h1>2nd Declension</h1>
+<h1 class="content-header">2nd Declension</h1>
 </div>
 <fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
 <legend><b>Feminine Nouns</b></legend>
@@ -65,6 +67,7 @@ function showVerbs() {
 	c = document.getElementById("content");
 	c.hidden = false
 	c.innerHTML = `
+<h1 class="content-header">Verbs</h1>
 <fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
 <!--legend><b></b></legend-->
 ha\`Ti - to Be<br>
@@ -114,6 +117,7 @@ function showAdjectives() {
 	c = document.getElementById("content");
 	c.hidden = false
 	c.innerHTML = `
+<h1 class="content-header">Adjectives</h1>
 <fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
 <legend><b>Adjectives</b></legend>
 	%1
@@ -136,6 +140,7 @@ function showAdverbs() {
 	c = document.getElementById("content");
 	c.hidden = false
 	c.innerHTML = `
+<h1 class="content-header">Adverbs</h1>
 <fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
 	%1
 </fieldset>
@@ -155,6 +160,7 @@ function showOther() {
 	c = document.getElementById("content");
 	c.hidden = false
 	c.innerHTML = `
+<h1 class="content-header">Other</h1>
 <fieldset style="margin: 0% 1% 0% 1%; width: 31.33%; float: left; font-size:110%;">
 <legend><b>Prepositions</b></legend>
 	%1
