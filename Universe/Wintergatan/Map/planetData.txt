@@ -1,72 +1,82 @@
-Gaia | Gaian Federation | N/A
+Gaia | Gaian Federation | N/A | The homeworld of humanity.
 Sirius | Gaian Federation | 2126 | 
 Toliman | Gaian Federation | 2110 | 
-Outania | Gaian Federation | 
-B-ABB | Gaian Federation | 
-Dagon | Gaian Federation | 
-Eteron | Gaian Federation | 
-Thafelia | Gaian Federation | 
-Veblion | Gaian Federation | 
-Gyke | Gaian Federation | 
-Oslisis | Gaian Federation | 
-Elexina | Gaian Federation | 
-GAL-2955 | Gaian Federation | 
-Tiotania | Gaian Federation | 
-TW-2901 | Gaian Federation | 
-Gechadus | Gaian Federation | 
-Mirfak | Gaian Federation | 
-Ollion | Gaian Federation | 
-Moktar | Gaian Federation | 
-Ghunn | Gaian Federation | 
-ESK-1035 | Neutral | 
+Outania | Gaian Federation |  | 
+B-ABB | Gaian Federation |  | 
+Dagon | Gaian Federation |  | 
+Eteron | Gaian Federation | N/A | 
+Thafelia | Gaian Federation |  | 
+Veblion | Gaian Federation |  | 
+Gyke | Gaian Federation |  | 
+Oslisis | Gaian Federation |  | 
+Elexina | Gaian Federation | N/A | 
+GAL-2955 | Gaian Federation |  | 
+Tiotania | Gaian Federation |  | 
+TW-2901 | Gaian Federation |  | 
+Gechadus | Gaian Federation |  | 
+Mirfak | Gaian Federation |  | 
+Ollion | Gaian Federation |  | 
+Moktar | Gaian Federation |  | 
+Ghunn | Gaian Federation |  | 
+Ritan | Gaian Federation/(Gadoran Empire) | 2122 | 
+US-1 | Gaian Federation | 2119 | 
+US-2 | Gaian Federation/Saberian Union | 2119 | After Gaia discovered hyperdrive technology in 2109 and made first contact with the Saberian Union in 2112, they raced to find a hyperspace route to Saber. After seven years, they finally met up with a Saberian exploration fleet in the [US-2] system in 2119. This system was later decided to determine the border between the Gaian Federation and the Saberian Union.
+Lephang | Gaian Federation | 2120 | 
 
-V-1541 | Crozonian Alliance | 
-Crozon | Crozonian Alliance | 
-Aldor | Republic of Aldor | 
+Vega | Neutral | N/A | 
 
-Igh'ra | Vaarian Empire | 
-Vaaria | Vaarian Empire | 
-Zon'ra | Vaarian Empire | 
-Saa'ra | Vaarian Empire | 
+ESK-1035 | Neutral | N/A | 
+B-PQN | Neutral | N/A | 
+Eorta | Neutral | N/A | 
+Eblonii | Neutral | N/A | 
 
-- | Saberian Union | 
-Callia | Saberian Union | 
-Saber | Saberian Union | 
+V-1541 | Crozonian Alliance |  | 
+Crozon | Crozonian Alliance | N/A | 
+Aldor | Republic of Aldor |  | 
 
-Cristallia 600 690 Saber
+Igh'ra | Vaarian Empire |  | 
+Vaaria | Vaarian Empire | N/A | 
+Zon'ra | Vaarian Empire |  | 
+Saa'ra | Vaarian Empire |  | 
 
-Kraxon | Kraxonian Empire | 
+- | Saberian Union |  | 
+Callia | Saberian Union |  | 
+Saber | Saberian Union | N/A | 
 
-W1 | Kraxonian Empire | 
+Cristallia | The Remnant | N/A | 
 
-T2 | Kraxonian Empire | 
-T3 | Kraxonian Empire | 
-T6 | Kraxonian Empire | 
-T7 | Kraxonian Empire | 
-T16 | Kraxonian Empire | 
-T17 | Kraxonian Empire | 
-T21 | Kraxonian Empire | 
-T22 | Kraxonian Empire | 
-T25 | Kraxonian Empire | 
-T26 | Kraxonian Empire | 
-T27 | Kraxonian Empire | 
-T29 | Kraxonian Empire | 
-T30 | Kraxonian Empire | 
-T33 | Kraxonian Empire | 
+Kraxon | Kraxonian Empire | N/A | 
 
-B-Alpha | Kraxonian Empire | 
-B20 | Kraxonian Empire | 
-B31 | Kraxonian Empire | 
-B32 | Kraxonian Empire | 
+W1 | Kraxonian Empire |  | 
 
-R7 | Kraxonian Empire | 
+T2 | Kraxonian Empire |  | 
+T3 | Kraxonian Empire |  | 
+T6 | Kraxonian Empire |  | 
+T7 | Kraxonian Empire |  | 
+T16 | Kraxonian Empire |  | 
+T17 | Kraxonian Empire |  | 
+T21 | Kraxonian Empire |  | 
+T22 | Kraxonian Empire |  | 
+T25 | Kraxonian Empire |  | 
+T26 | Kraxonian Empire |  | 
+T27 | Kraxonian Empire |  | 
+T29 | Kraxonian Empire |  | 
+T30 | Kraxonian Empire |  | 
+T33 | Kraxonian Empire |  | 
 
-D1 | Kraxonian Empire | 
-D2 | Kraxonian Empire | 
-D3 | Kraxonian Empire | 
-D4 | Kraxonian Empire | 
-D5 | Kraxonian Empire | 
-D6 | Kraxonian Empire | 
-Balphaz | Kraxonian Empire | 
+B-Alpha | Kraxonian Empire | |  
+B20 | Kraxonian Empire |  | 
+B31 | Kraxonian Empire |  | 
+B32 | Kraxonian Empire |  | 
 
-Borgana | Borganian Empire/(Republic) | 
+R7 | Kraxonian Empire |  | 
+
+D1 | Kraxonian Empire |  | 
+D2 | Kraxonian Empire |  | 
+D3 | Kraxonian Empire |  | 
+D4 | Kraxonian Empire |  | 
+D5 | Kraxonian Empire |  | 
+D6 | Kraxonian Empire |  | 
+Balphaz | Kraxonian Empire |  | 
+
+Borgana | Borganian Empire/(Republic) | N/A | 

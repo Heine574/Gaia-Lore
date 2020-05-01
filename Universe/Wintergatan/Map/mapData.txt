@@ -1,4 +1,4 @@
-Gaia 500 400 Toliman Outania B-ABB Thafelia Sirius
+Gaia 500 400 Toliman Outania B-ABB Thafelia Sirius Vega
 Toliman 486 387 Gaia
 Outania 523 416 Gaia Eteron
 B-ABB 555 407 Gaia Dagon Gechadus
@@ -12,13 +12,19 @@ Oslisis 432 462 Gyke
 Elexina 422 514 Gyke
 GAL-2955 489 513 Gyke Tiotania
 Tiotania 485 483 Gyke GAL-2955
-TW-2901 547 537
+TW-2901 547 537 Lephang
 Gechadus 601 432 Eteron B-ABB Mirfak
 Mirfak 600 456 Gechadus Ollion Moktar
 Ollion 637 467 Mirfak
-Moktar 610 482 Mirfak Ghunn
-Ghunn 640 502 Moktar ESK-1035 V-1541
+Moktar 610 482 Mirfak Ghunn US-1
+Ghunn 640 502 Moktar ESK-1035 V-1541 Ritan
 ESK-1035 666 495 Ghunn
+Vega 505 360 Gaia
+US-1 593 511 Moktar US-2 Lephang
+US-2 600 528 US-1
+Lephang 571 529 US-1 TW-2901
+
+Ritan 623 515 Ghunn
 
 Eorta 692 405 B-PQN
 B-PQN 733 425 Eorta
