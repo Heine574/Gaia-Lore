@@ -19,8 +19,8 @@ Ollion | Gaian Federation |  |
 Moktar | Gaian Federation |  | 
 Ghunn | Gaian Federation |  | 
 Ritan | Gaian Federation/(Gadoran Empire) | 2122 | 
-US-1 | Gaian Federation | 2119 | 
-US-2 | Gaian Federation/Saberian Union | 2119 | After Gaia discovered hyperdrive technology in 2109 and made first contact with the Saberian Union in 2112, they raced to find a hyperspace route to Saber. After seven years, they finally met up with a Saberian exploration fleet in the [US-2] system in 2119. This system was later decided to determine the border between the Gaian Federation and the Saberian Union.
+Constan | Gaian Federation | 2119 | 
+Polisha | Gaian Federation/Saberian Union | 2119 | After Gaia discovered hyperdrive technology in 2109 and made first contact with the Saberian Union in 2112, they raced to find a hyperspace route to Saber. After seven years, they finally met up with a Saberian exploration fleet in the Polisha system in 2119. This system was later decided to determine the border between the Gaian Federation and the Saberian Union.
 Lephang | Gaian Federation | 2120 | 
 
 Vega | Neutral | N/A | 

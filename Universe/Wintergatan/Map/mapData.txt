@@ -16,13 +16,13 @@ TW-2901 547 537 Lephang
 Gechadus 601 432 Eteron B-ABB Mirfak
 Mirfak 600 456 Gechadus Ollion Moktar
 Ollion 637 467 Mirfak
-Moktar 610 482 Mirfak Ghunn US-1
+Moktar 610 482 Mirfak Ghunn Constan
 Ghunn 640 502 Moktar ESK-1035 V-1541 Ritan
 ESK-1035 666 495 Ghunn
 Vega 505 360 Gaia
-US-1 593 511 Moktar US-2 Lephang
-US-2 600 528 US-1
-Lephang 571 529 US-1 TW-2901
+Constan 593 511 Moktar Polisha Lephang
+Polisha 600 528 Constan
+Lephang 571 529 Constan TW-2901
 
 Ritan 623 515 Ghunn
 
