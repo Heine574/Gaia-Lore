@@ -17,12 +17,13 @@ Gechadus 601 432 Eteron B-ABB Mirfak
 Mirfak 600 456 Gechadus Ollion Moktar
 Ollion 637 467 Mirfak
 Moktar 610 482 Mirfak Ghunn Constan
-Ghunn 640 502 Moktar ESK-1035 V-1541 Ritan
+Ghunn 640 502 Moktar ESK-1035 V-1541 Ritan Alakar
 ESK-1035 666 495 Ghunn
 Vega 505 360 Gaia
 Constan 593 511 Moktar Polisha Lephang
 Polisha 600 528 Constan
 Lephang 571 529 Constan TW-2901
+Alakar 653 484 Ghunn
 
 Ritan 623 515 Ghunn
 
